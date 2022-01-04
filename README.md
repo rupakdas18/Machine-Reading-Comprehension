@@ -2,6 +2,7 @@
 
 **Program Details:** This is a reading comprehension test that consists of multiple choice
 questions based on a short story.
+
 **Code Usage:** The user should follow below format in a commandline
 python machine-reader.py 0/1 mc500.(dev/test).tsv (dev/test).(0/1).txt
 python machine-grader.py (dev/test).(0/1).txt mc500.(dev/test).ans (dev/test).(0/1).graded.txt
@@ -11,6 +12,7 @@ mc500.(dev/test).tsv, file contains question
 (dev/test).(0/1).txt, file contains predicted answer
 mc500.(dev/test).ans, file contains actual answer
 (dev/test).(0/1).graded.txt, provide the accuracy
+
 **Program Algorithm (Reader):**
 1) Mode 0:
   - for every question
